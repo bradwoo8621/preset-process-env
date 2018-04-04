@@ -1,4 +1,4 @@
-![Travis-CI](https://travis-ci.org/bradwoo8621/preset-process-env.svg?branch=master)
+![Travis-CI](https://travis-ci.org/bradwoo8621/preset-process-env.svg?branch=master) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/160db911104c4431b004b0e13906742a)](https://www.codacy.com/app/bradwoo8621/preset-process-env?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=bradwoo8621/preset-process-env&amp;utm_campaign=Badge_Grade)
 
 # preset-process-env
 Preset node process.env before run scripts
