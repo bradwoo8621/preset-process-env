@@ -6,11 +6,11 @@
     "preset-process-env": "./bin/preset-process-env.js"
   },
   "scripts": {
-	"run-test:prod": "mocha ./test/test-prod.js",
-	"run-test:uat": "mocha ./test/test-uat.js",
+    "run-test:prod": "mocha ./test/test-prod.js",
+    "run-test:uat": "mocha ./test/test-uat.js",
     "test:prod": "preset-process-env run-test:prod prod",
-	"test:uat": "preset-process-env run-test:uat uat UAT-VAR=value1",
-	"test": "npm run test:uat"
+    "test:uat": "preset-process-env run-test:uat uat UAT-VAR=value1",
+    "test": "npm run test:uat"
   },
   "repository": {
     "type": "git",
@@ -29,9 +29,11 @@
   },
   "homepage": "https://github.com/bradwoo8621/preset-process-env#readme",
   "devDependencies": {
+    "codacy-coverage": "^2.1.1",
     "mocha": "^5.0.5"
   },
   "dependencies": {
-    "cross-spawn": "^6.0.5"
+    "cross-spawn": "^6.0.5",
+    "mocha-lcov-reporter": "^1.3.0"
   }
 }
