@@ -13,7 +13,7 @@ const appDirectory = fs.realpathSync(process.cwd());
 console.log(`Application directory is [${appDirectory}].`);
 const resolveApp = relativePath => path.resolve(appDirectory, relativePath);
 
-const envFile = resolveApp(`env-config/.env.${env}`);
+const envFile = resolveApp(`envs/.env.${env}`);
 console.log(`Environment file is [${envFile}].`);
 const environmentVariables = require(envFile);
 // 复制环境参数到process.env, 可能会覆盖全局参数
