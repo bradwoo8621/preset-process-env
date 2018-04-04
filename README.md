@@ -34,3 +34,20 @@ Variables also can be passed by command line,
 
 * `true`/`false` should be converted to boolean value,  
 * `true` is optional.
+
+## Sample
+* `<path-to-your-project-root>/envs/.envs.test.js`  
+	```javascript
+	module.exports = {
+		// environment name
+		ENV_NAME: 'TEST',
+	};
+	```
+* Command line,
+	```
+	preset-process-env build test
+	```
+* In your source code,
+	```javascript
+	console.log(process.env.ENV_NAME);	// output: TEST
+	```
