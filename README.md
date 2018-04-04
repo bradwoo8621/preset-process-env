@@ -28,15 +28,15 @@ Assume there are 2 environments, `prod` and `test`. Build your source code by `n
 
 ## Additional
 Variables also can be passed by command line,  
-> eg. `preset-process-env build prod VAR-A=abc` -> `process.env['VAR-A']` // output: "abc"
-> eg. `preset-process-env build prod VAR-B=false` -> `process.env['VAR-B']` // output: false
-> eg. `preset-process-env build prod VAR-C` -> `process.env['VAR-C']` // output: true
+> eg. `preset-process-env build prod VAR-A=abc` -> `process.env['VAR-A']` // output: "abc"  
+> eg. `preset-process-env build prod VAR-B=false` -> `process.env['VAR-B']` // output: false  
+> eg. `preset-process-env build prod VAR-C` -> `process.env['VAR-C']` // output: true  
 
 * `true`/`false` should be converted to boolean value,  
 * `true` is optional.
 
 ## Sample
-* `<path-to-your-project-root>/envs/.envs.test.js`  
+* <path-to-your-project-root>/envs/.envs.test.js  
 	```javascript
 	module.exports = {
 		// environment name
