@@ -1,6 +1,6 @@
 {
   "name": "preset-process-env",
-  "version": "0.9.0",
+  "version": "1.0.0",
   "description": "Preset node process.env before run scripts",
   "bin": {
     "preset-process-env": "./bin/preset-process-env.js"
